@@ -8,13 +8,15 @@
         <h3>form</h3>
         <form id="form1" name="form1">
             <label for="name">Ваше ім'я:</label>
-            <input type="text" id="name" name="name" ><br>
+            <input type="text" id="name" name="name" placeholder="ім'я"><br>
             <label for="gmail">ваш емейл:</label>
-            <input type="email" id="gmail" name="gmail" ><br>
+            <input type="email" id="gmail" name="gmail" placeholder="gmail"><br>
             <label for="telp">телефон:</label>
-            <input type="tel" id="telp" name="telp" ><br>
+            <input type="tel" id="telp" name="telp" placeholder="телефон"><br>
             <p>тема для письма</p><br>
-              <select>
+        
+              <select >
+                <option selected disabled >-list-</option>
                 <option >html</option>
                 <option >css</option>
                 <option >JS</option>
@@ -25,13 +27,24 @@
             </textarea><br>
             <p>вирішіть та відправте</p><br>
             <label for="math">3+7=</label>
-            <input type="text" id="math" name="math" value="ведіть рішення" ><br>
-            <input type="submit" value="стерти">
+            <input type="text" id="math" name="math" placeholder="ведіть рішення" ><br>
+            <input type="submit" value="Надіслати" >
+            <input type="reset" value="стерти">
             
-        </form>
-        <input type="submit" value="Надіслати" for="form1"><br><br><br><br><br>
+        </form><br><br><br><br><br>
         <form id="form2" name="form2">
-
+            <label for="login">login:</label>
+            <input type="text" id="login" name="login" placeholder="login"><br>
+            <label for="pas">password:</label>
+            <input type="password" id="pas" name="pas" placeholder="********"><br>
+            <label for="rpas">repeat password:</label>
+            <input type="password" id="rpas" name="rpas" placeholder="********"><br>
+            <label for="em">email:</label>
+            <input type="text" id="em" name="em" placeholder="email"><br>
+            <label for="un">user name</label>
+            <input type="text" id="un" name="un" placeholder="user name"><br>
+            <input type="submit" value="Надіслати" >
+            <input type="reset" value="стерти">
         </form>
     </body>
 </html>
