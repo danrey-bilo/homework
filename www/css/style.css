@@ -1,4 +1,77 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
-.text {
+body{
+    background-color: rgb(119, 192, 235);
+}
+.form1  label, .form1 h2, .form1 p{
     font-family: 'Caveat', cursive;
+    color: rgb(0, 0, 0);
+}
+.form1 {
+    border: 3px solid black;
+    border-radius: 2%;
+    width: 300px;
+    background-color: rgb(240, 187, 187);
+    padding: 10px;
+    height: 350px;
+    
+}
+.form1 input,.form1 textarea , .form1 select{
+    float: right;
+    height: 10px;
+    font-size: 12px;
+    border-radius: 3px;
+    width: 200px;
+    font-family: 'Caveat', cursive;
+    
+}
+.form1 textarea, .form1 select{
+    height: auto;
+}
+.form1 .but {
+    float: right;
+    height: auto;
+    margin: 10px;
+    width: auto;
+    font-family: 'Caveat', cursive;
+}
+.form1 label {
+   
+   text-align: left;
+    line-height: 20px;
+}
+
+
+
+.form2 {
+    border: 3px solid black;
+    border-radius: 2%;
+    width: 350px;
+    background-color: rgb(137, 204, 141);
+    padding: 10px;
+    height: 300px;
+    
+}
+.form2 label{
+       float: right;
+       text-align: center;
+       line-height: 30px;
+       
+       padding-right: 10px;
+    }
+.form2 input {
+    width: 200px;
+    float: right;
+    border-radius: 3px;
+
+}
+
+#pinpoto ,#pin {
+    float: right;
+    width: 100px;
+    height: auto;
+    border-radius: 3px;
+    
+}
+.form2 h2{
+    text-align: center;
 }

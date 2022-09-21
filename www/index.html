@@ -6,7 +6,7 @@
  <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-      <div class="text">
+      <div class="form1">
         <h2>form1</h2>
         <form id="form1" name="form1" >
             <label for="name">Ваше ім'я:</label>
@@ -15,9 +15,8 @@
             <input type="email" id="gmail" name="gmail" placeholder="gmail"><br>
             <label for="telp">телефон:</label>
             <input type="tel" id="telp" name="telp" placeholder="телефон"><br>
-            <p>тема для письма</p><br>
-        
-              <select >
+            <label for="sele">тема для письма:</label>
+              <select name="sele">
                 <option selected disabled >-list-</option>
                 <option >html</option>
                 <option >css</option>
@@ -26,29 +25,39 @@
             <label for="tebl">повідомлення:</label>
             <textarea id="tebl" name="tebl" rows="4" cols="30">
 
-            </textarea><br>
-            <p>вирішіть та відправте</p><br>
+            </textarea><br><br><br><br>
+            <p>вирішіть та відправте</p>
             <label for="math">3+7=</label>
             <input type="text" id="math" name="math" placeholder="ведіть рішення" ><br>
-            <input type="submit" value="Надіслати" >
-            <input type="reset" value="стерти">
+            <input class="but" type="submit" value="Надіслати" >
+            <input class="but" type="reset" value="стерти">
             
-        </form><br><br><br><br><br>
+        </form>
+      </div>
+        <br><br><br><br><br>
+        <div class="form2">
         <h2>form2</h2>
         <form id="form2" name="form2">
-            <label for="login">login:</label>
-            <input type="text" id="login" name="login" placeholder="login"><br>
+           <input type="text" id="login" name="login" placeholder="login">  
+           <label for="login">login:</label>
+            <br>
+            <input type="password" id="pas" name="pas" placeholder="********">
             <label for="pas">password:</label>
-            <input type="password" id="pas" name="pas" placeholder="********"><br>
+            <br>
+            <input type="password" id="rpas" name="rpas" placeholder="********">
             <label for="rpas">repeat password:</label>
-            <input type="password" id="rpas" name="rpas" placeholder="********"><br>
+            <br>
+            <input type="text" id="em" name="em" placeholder="email">
             <label for="em">email:</label>
-            <input type="text" id="em" name="em" placeholder="email"><br>
-            <label for="un">user name</label>
-            <input type="text" id="un" name="un" placeholder="user name"><br>
-            <label for="pinpoto">pin</label>
-            <input type="text" id="pinpoto" name="pinpoto" placeholder="user name">
-            <img src="pinpoto.jpg" alt="pin" width="200" height="40" id="pinpoto"> <br>
+            <br>
+            <input type="text" id="un" name="un" placeholder="user name">
+            <label for="un">user name:</label>
+            <br>
+            
+            <img src="pinpoto.jpg" alt="pin"  id="pinpoto">
+            <input type="text" id="pin" name="pinpoto" placeholder="pin">
+            <label for="pinpoto">pin:</label>
+             <br>
             <input type="submit" value="Надіслати" >
             <input type="reset" value="стерти">
         </form>
