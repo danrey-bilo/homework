@@ -1,77 +1,129 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap');
 body{
-    background-color: rgb(119, 192, 235);
+    margin: 0;
+    background-color: rgb(30 10 10);
 }
-.form1  label, .form1 h2, .form1 p{
-    font-family: 'Caveat', cursive;
-    color: rgb(0, 0, 0);
+.imghead {
+    background-image: url(../img/headfon.png);
+    background-size: cover;
+    height: 70vh;
+    width: 100vw;
+background-repeat: no-repeat;
+background-position:center -100px;
 }
-.form1 {
-    border: 3px solid black;
-    border-radius: 2%;
-    width: 300px;
-    background-color: rgb(240, 187, 187);
-    padding: 10px;
-    height: 350px;
+.imginhead {
+
+    position: relative;
+    background-image: url(../img/porez.png);
+    background-size: cover;
+    background-position:center;
+    height: 20vh;
+    width: 20vw;
+    top: -30vw ;
+    left: 40vw;
+    background-repeat: no-repeat;
+}
+.onesel{
+    background-image: url(../img/1/1.png);
+    background-size: cover;
+    height: 40vh;
+    width: 50%;
+    background-repeat: no-repeat;
+    float: left;
+    background-position:left -100px;
     
 }
-.form1 input,.form1 textarea , .form1 select{
-    float: right;
-    height: 10px;
-    font-size: 12px;
-    border-radius: 3px;
-    width: 200px;
-    font-family: 'Caveat', cursive;
+.lefttext {
+    margin: 0;
+    width: 49%;
+    float: left;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700; 
+    font-size: larger;
+    word-spacing: 1px;
+    letter-spacing: 2px;
+    color: rgb(232 237 241 / 61%);
     
 }
-.form1 textarea, .form1 select{
-    height: auto;
+.lefttext p,.lefttext2 p ,.lefttext4 p {
+    margin: 0 1em 0 1em;
 }
-.form1 .but {
+.onesel , .lefttext {
+    position: relative;
+    top: -160px;
+}
+.onesel2{
+    background-image: url(../img/1/3.png);
+    background-size: cover;
+    background-position:center;;
+    height: 50vh;
+    width: 49%;
     float: right;
-    height: auto;
-    margin: 10px;
-    width: auto;
-    font-family: 'Caveat', cursive;
+    background-position:left top;
+    
 }
-.form1 label {
+.lefttext2 {
+    margin: 0;
+    width: 50%;
+    float: left;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700; 
+    font-size: larger;
+    word-spacing: 1px;
+    letter-spacing: 2px;
+    color: rgb(232 237 241 / 61%);
+    text-align: left;
+}
+.onesel2 , .lefttext2 {
+    position: relative;
+    top: -130px ;
+}
+.onesel3{
+    position: relative;
+    background-image: url(../img/2/1.JPG);
+    background-size: cover;
+    background-position:center;;
+    height: 60vh;
+    width: 100%;
+    top: 755px;
+}
+.lefttext4 {
+    position: relative;
+    margin: 0;
+    width: 50%;
+    float: left;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700; 
+    font-size: larger;
+    word-spacing: 1px;
+    letter-spacing: 2px;
+    color: rgb(232 237 241 / 61%);
+    text-align: left;
+    top: 500px;
+}
+.onesel4{
+    position: relative;
+    background-image: url(../img/3/2.jpg);
+    background-size: cover;
+    background-position:center;
+    height: 70vh;
+    width: 50%;
+    top: 500px;
+    background-position:left -100px;
+    background-repeat: no-repeat;
+    float: right;
+}
+.link {
    
-   text-align: left;
-    line-height: 20px;
-}
-
-
-
-.form2 {
-    border: 3px solid black;
-    border-radius: 2%;
-    width: 350px;
-    background-color: rgb(137, 204, 141);
-    padding: 10px;
-    height: 300px;
-    
-}
-.form2 label{
-       float: right;
-       text-align: center;
-       line-height: 30px;
-       
-       padding-right: 10px;
-    }
-.form2 input {
-    width: 200px;
-    float: right;
-    border-radius: 3px;
-
-}
-
-#pinpoto ,#pin {
-    float: right;
-    width: 100px;
-    height: auto;
-    border-radius: 3px;
-    
-}
-.form2 h2{
-    text-align: center;
+    position : relative;
+    border: 3px solid rgb(146, 3, 3);
+    background-size: cover;
+    background-position:center;
+    background-image: url(../img/1.png);
+    height: 14vh;
+    width: 38vh;
+    top: 1300px;
+    left: 20%;
+    border-radius: 30px ;
+    background-repeat: no-repeat;
 }
